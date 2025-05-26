@@ -25,15 +25,10 @@ clicked = endPause: "OK", 1
 
 # 10ms windows first to spectrogram, then extract spectral moments
 
-rDir$ = "C:\Users\Natalja ULRICH\Desktop\PHD_Projekt\DataBaseRUFricatives\all_sounds_session_1"
-#rDir$ = "C:\Users\Natalja ULRICH\Documents\GitHub\paper_Palatalisation\test_set"
+rDir$ = "C:\Users\Natalja ULRICH\Documents\GitHub\paper_Palatalisation\all_sounds_session_1"
 wDir$ = "C:\Users\Natalja ULRICH\Documents\GitHub\paper_Palatalisation\spectra"
 mDir$ = "C:\Users\Natalja ULRICH\Documents\GitHub\paper_Palatalisation"
 
-#rDir$ = "C:\Users\Natalja ULRICH\Desktop\DataBaseRUFricatives\final_data\all_sounds"
-##rDir$ = "D:\ArticlesResearch\2024\Article_Natalja_Ulrich\test_set"
-##wDir$ = "D:\ArticlesResearch\2024\Article_Natalja_Ulrich\spectra"
-##mDir$ = "D:\ArticlesResearch\2024\Article_Natalja_Ulrich"
 
 # Get file list
 fileList= Create Strings as file list: "fileList", rDir$+ "\*.wav"
